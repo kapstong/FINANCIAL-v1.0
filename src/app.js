@@ -100,7 +100,7 @@ async function startServer() {
     app.listen(PORT, () => {
       console.log('🚀 ATIERA Financial System is running!')
       console.log(`📍 Backend API: http://localhost:${PORT}`)
-      console.log(`🔐 Admin Dashboard: http://localhost:${PORT}/admin/index.php`)
+      console.log(`🔐 Admin Dashboard: http://localhost:${PORT}/index.php`)
       console.log(`📊 Health Check: http://localhost:${PORT}/api/health`)
       console.log(`🌍 Environment: ${process.env.NODE_ENV || 'development'}`)
       console.log(`💡 For WAMP Server: Access via your WAMP domain without localhost`)
