@@ -331,7 +331,7 @@ class Auth {
     public function requireAdmin() {
         $this->requireAuth();
         if (!$this->isAdmin()) {
-            header('Location: index.php');
+            header('Location: ../index.php');
             exit();
         }
     }
