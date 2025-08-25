@@ -53,12 +53,12 @@ if %errorlevel% neq 0 (
 echo.
 echo Starting ATIERA Financial System...
 echo Backend will be available at: http://localhost:5050
-echo Admin Dashboard: http://localhost:5050/admin/dashboard.php
+echo Admin Dashboard: http://localhost:5050/admin/index.php
 echo Health Check: http://localhost:5050/api/health
 echo.
 echo For WAMP Server access:
 echo - Backend API: http://your-wamp-domain:5050
-echo - Admin Dashboard: http://your-wamp-domain:5050/admin/dashboard.php
+echo - Admin Dashboard: http://your-wamp-domain:5050/admin/index.php
 echo - Health Check: http://your-wamp-domain:5050/api/health
 echo.
 echo Press Ctrl+C to stop the server

@@ -142,15 +142,15 @@ $user = $auth->getCurrentUser();
     }
     
     /* Enhanced Brand Logo */
-    .navbar a[href="dashboard.php"] {
+    .navbar a[href="index.php"] {
       transition: all 0.3s ease;
     }
     
-    .navbar a[href="dashboard.php"]:hover {
+    .navbar a[href="index.php"]:hover {
       transform: scale(1.05);
     }
     
-    .navbar a[href="dashboard.php"] span {
+    .navbar a[href="index.php"] span {
       background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -1256,7 +1256,7 @@ $user = $auth->getCurrentUser();
          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h10"/></svg>
        </button>
 
-      <a href="dashboard.php" class="flex items-center gap-3">
+      <a href="index.php" class="flex items-center gap-3">
         <img src="logo2.png" alt="ATIÉRA" class="h-8 w-auto sm:h-10" draggable="false">
         <span class="font-extrabold tracking-wide text-lg">ATIERA</span>
       </a>
@@ -1364,7 +1364,7 @@ $user = $auth->getCurrentUser();
     <aside id="sidebar" class="fixed lg:static left-0 top-14 lg:top-auto w-64 lg:w-full h-[calc(100vh-56px)] lg:h-auto bg-white border-r border-[var(--ring)] sidebar-transition -translate-x-full lg:translate-x-0 z-50 overflow-y-auto">
       <nav class="p-3 space-y-1">
         <div class="text-[11px] uppercase tracking-widest text-slate-500 px-2 pt-2 pb-1">Navigation</div>
-        <a class="sidebar-item" href="dashboard.php"><span>🏠</span><span>Dashboard</span></a>
+        <a class="sidebar-item" href="index.php"><span>🏠</span><span>Dashboard</span></a>
 
         <a class="sidebar-item active" href="General Ledger.php"><span>📘</span><span>General Ledger</span></a>
         <a class="sidebar-item" href="Accounts Receivable.php"><span>💳</span><span>Accounts Receivable</span></a>

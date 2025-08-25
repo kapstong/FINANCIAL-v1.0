@@ -45,7 +45,7 @@ This document describes the new profile and settings functionality added to the 
 admin/
 ├── settings.php          # Settings page
 ├── profile.php           # Profile page
-└── dashboard.php         # Updated with profile image
+└── index.php         # Updated with profile image
 
 includes/
 └── auth.php              # Enhanced with profile methods

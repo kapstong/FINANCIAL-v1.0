@@ -265,15 +265,15 @@ $currentMonthName = date('F Y');
      }
      
      /* Enhanced Brand Logo */
-     .navbar a[href="dashboard.php"] {
+     .navbar a[href="index.php"] {
        transition: all 0.3s ease;
      }
      
-     .navbar a[href="dashboard.php"]:hover {
+     .navbar a[href="index.php"]:hover {
        transform: scale(1.05);
      }
      
-     .navbar a[href="dashboard.php"] span {
+     .navbar a[href="index.php"] span {
        background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%);
        -webkit-background-clip: text;
        -webkit-text-fill-color: transparent;
@@ -1695,7 +1695,7 @@ $currentMonthName = date('F Y');
          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h10"/></svg>
        </button>
 
-      <a href="dashboard.php" class="flex items-center gap-3">
+      <a href="index.php" class="flex items-center gap-3">
         <img src="logo2.png" alt="ATIÉRA" class="h-8 w-auto sm:h-10" draggable="false">
         <span class="font-extrabold tracking-wide text-lg">ATIERA</span>
       </a>
@@ -1778,7 +1778,7 @@ $currentMonthName = date('F Y');
       <nav id="sidebarNav" class="p-3 space-y-1">
         <div class="text-[11px] uppercase tracking-widest text-slate-500 px-2 pt-2 pb-1">Navigation</div>
 
-        <a class="sidebar-item active" href="dashboard.php"><span>🏠</span><span>Dashboard</span></a>
+        <a class="sidebar-item active" href="index.php"><span>🏠</span><span>Dashboard</span></a>
         <a class="sidebar-item" href="General Ledger.php"><span>📘</span><span>General Ledger</span></a>
         <a class="sidebar-item" href="Accounts Receivable.php"><span>💳</span><span>Accounts Receivable</span></a>
         <a class="sidebar-item" href="Collections.php"><span>🧾</span><span>Collections</span></a>
@@ -2685,7 +2685,7 @@ $currentMonthName = date('F Y');
   <!-- Mobile Navigation Bar -->
   <nav id="mobileNav" class="mobile-nav md:hidden">
     <div class="mobile-nav-grid">
-      <a href="dashboard.php" class="mobile-nav-item">
+      <a href="index.php" class="mobile-nav-item">
         <span class="text-xl">🏠</span>
         <span>Dashboard</span>
       </a>

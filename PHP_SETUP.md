@@ -47,7 +47,7 @@ C:\wamp64\www\FINANCIAL\
 │   └── auth.php
 ├── admin\
 │   ├── login.php
-│   ├── dashboard.php
+│   ├── index.php
 │   └── [other modules].php
 ├── create-admin.php
 └── PHP_SETUP.md

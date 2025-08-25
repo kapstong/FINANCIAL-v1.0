@@ -63,7 +63,7 @@ try {
 Write-Host ""
 Write-Host "Starting ATIERA Financial System..." -ForegroundColor Green
 Write-Host "Backend will be available at: http://localhost:5050" -ForegroundColor Cyan
-Write-Host "Admin Dashboard: http://localhost:5050/admin/dashboard.php" -ForegroundColor Cyan
+Write-Host "Admin Dashboard: http://localhost:5050/admin/index.php" -ForegroundColor Cyan
 Write-Host "Health Check: http://localhost:5050/api/health" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "Press Ctrl+C to stop the server" -ForegroundColor Yellow

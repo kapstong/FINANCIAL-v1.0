@@ -958,7 +958,7 @@ $user = $stmt->fetch();
       </button>
 
       <!-- Brand -->
-      <a href="dashboard.php" class="flex items-center gap-3">
+      <a href="index.php" class="flex items-center gap-3">
         <img src="logo2.png" alt="ATIÉRA" class="h-8 w-auto sm:h-10" draggable="false">
         <span class="font-extrabold tracking-wide text-lg">ATIERA</span>
       </a>
@@ -1048,7 +1048,7 @@ $user = $stmt->fetch();
     <aside id="sidebar" class="fixed md:static left-0 top-14 md:top-auto w-64 md:w-full h-[calc(100vh-56px)] md:h-auto bg-white border-r border-[var(--ring)] sidebar-transition -translate-x-full md:translate-x-0 z-50 overflow-y-auto">
       <nav class="p-3 space-y-1">
         <div class="text-[11px] uppercase tracking-widest text-slate-500 px-2 pt-2 pb-1">Navigation</div>
-        <a class="sidebar-item" href="dashboard.php"><span>🏠</span><span>Dashboard</span></a>
+        <a class="sidebar-item" href="index.php"><span>🏠</span><span>Dashboard</span></a>
         <a class="sidebar-item" href="General Ledger.php"><span>📘</span><span>General Ledger</span></a>
         <a class="sidebar-item" href="Accounts Receivable.php"><span>💳</span><span>Accounts Receivable</span></a>
         <a class="sidebar-item" href="Collections.php"><span>🧾</span><span>Collections</span></a>

@@ -3,7 +3,7 @@ require_once '../includes/auth.php';
 $auth = new Auth();
 
 if ($auth->isLoggedIn()) {
-    header('Location: dashboard.php');
+    header('Location: index.php');
     exit();
 }
 
@@ -23,7 +23,7 @@ if ($_POST) {
         $result = $auth->login($username, $password);
         
         if ($result['success']) {
-            header('Location: dashboard.php');
+            header('Location: index.php');
             exit();
         } else {
                          if (isset($result['lockout'])) {
